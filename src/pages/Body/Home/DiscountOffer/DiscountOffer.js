@@ -14,7 +14,7 @@ const DiscountOffer = () => {
             <h2 className='mb-5' >Discount <span style={{ color: '#E21B70' }}>Offer</span></h2>
             <div className="row">
                 <Swiper spaceBetween={10}  loop={true} slidesPerView={3}
-                    // autoplay={{ delay: 2000, disableOnInteraction: false, }}
+                    autoplay={{ delay: 2000, disableOnInteraction: false, }}
                     modules={[Autoplay, Pagination, Navigation]}
                     className="mySwiper ">
 
